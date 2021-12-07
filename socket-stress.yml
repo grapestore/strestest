@@ -1,5 +1,6 @@
 config:
-  target: "http://3.38.143.25:8000/room"
+  # target: "http://3.38.143.25:8000/room" middle
+  target: "http://3.37.36.7:8000/room"
   phases:
     - duration: 10
       arrivalRate: 1000
