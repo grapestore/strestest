@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "artillery-engine-socketio-v3": "^1.1.2",
+    "faker": "^5.5.3",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "artillery": "^2.0.0-7"
+  }
+}

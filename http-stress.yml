@@ -1,0 +1,16 @@
+config:
+  target: "http://3.38.143.25:8000" # host
+  phases:
+    - duration: 100 # 해당 초만큼 실행
+      arrivalRate: 30
+  processor: "./util.js" # 참조할 js
+  defaults:
+    headers: # header 세팅
+      Content-Type: 'application/json'
+scenarios:
+  - flow:
+      - post:
+          url: "/chats"
+          json:
+            firstKakaoUserId : "fsdf"
+            secondKakaoUserId : "fsdfsdf"
