@@ -21,4 +21,4 @@ scenarios:
             userId: "{{ userId }}"
             nickname: "{{ nickname }}"
             gender: "{{ gender }}"
-      - think: 100
+      - think: 150
