@@ -21,4 +21,10 @@ scenarios:
             userId: "{{ userId }}"
             nickname: "{{ nickname }}"
             gender: "{{ gender }}"
-      - think: 150
+      - think: 140
+      - emit:
+          channel: "matchstart"
+          data:
+            userId: "{{ userId }}"
+            nickname: "{{ nickname }}"
+            gender: "{{ gender }}"
