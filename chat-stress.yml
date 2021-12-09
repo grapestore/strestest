@@ -30,5 +30,5 @@ scenarios:
           capture:
             json: "$"
             as: "text"
-      - log: "{{text}}"
-      - think: 50
+      # - log: "{{text}}"
+      # - think: 50
