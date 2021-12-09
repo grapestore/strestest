@@ -24,7 +24,7 @@ scenarios:
           capture:
             json: "$.recentMessage.chatName"
             as: "res"
-      - log: "{{res}}"
+      # - log: "{{res}}"
       - get:
           url: "http://localhost:8000/chats/name/{{ res }}"
           capture:
