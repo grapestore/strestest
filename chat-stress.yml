@@ -30,4 +30,4 @@ scenarios:
           capture:
             json: "$"
             as: "text"
-      # - log: "{{text}}"
+      - log: "{{text}}"
