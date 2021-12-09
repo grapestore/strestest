@@ -1,6 +1,5 @@
 config:
-  # target: "http://3.38.143.25:8000/room" middle
-  target: "http://3.37.36.7:8000/"
+  target: "http://52.78.160.30:8000/" #kking
   phases:
     - duration: 60
       arrivalRate: 50
