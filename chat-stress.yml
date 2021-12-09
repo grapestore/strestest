@@ -31,3 +31,4 @@ scenarios:
             json: "$"
             as: "text"
       - log: "{{text}}"
+      - think: 50
