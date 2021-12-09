@@ -2,7 +2,7 @@ config:
   target: "http://52.78.160.30:8000/" #kking
   phases:
     - duration: 60
-      arrivalRate: 50
+      arrivalRate: 100
   processor: "./util.js"
   payload:
     path: "./user_token.csv"
